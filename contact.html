@@ -35,8 +35,10 @@
 
     <section class='pageBody'>
         <form class='contact'>
+            <!-- email -->
             <label for="email">Email</label><br>
             <input type="text" id="email" name="email" required>
+            <!-- name -->
             <div class='name'>
                 <div class='nameinput'>
                     <label for="fname">First name</label><br>
@@ -47,15 +49,22 @@
                     <input type="text" id="lname" name="lname" required>
                 </div>
             </div>
-            <label for="fname">Category</label><br>
+            <!-- category -->
+            <label for="category" class='category'>Category</label><br>
             <select id="category" name="category" required>
-                <option >Select</option>
+                <option>Select</option>
                 <option value="general">General</option>
                 <option value="question">Question</option>
                 <option value="support">Support</option>
                 <option value="Wholesale">Wholesale/Partnerships</option>
-              </select>
+            </select>
+            <br>
 
+            <!-- message -->
+            <label for="message">Message</label><br>
+            <textarea name="message" rows="10" cols="30"></textarea>
+            <!-- submit button -->
+            <input class="submit" type="submit" value="Submit">
         </form>
 
         <div id='spacebetween'></div>

@@ -50,6 +50,8 @@ a, a:hover {
     color: #455274;
 }
 
+/* generaal styling cross all html pages */
+
 .selected {
     color: #455274;
     border-bottom: 3px solid #455274;
