@@ -1,25 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/Logo Imagelogo-img.png">
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+    <!-- Font Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Kavoon&family=Poppins:wght@200;500&display=swap"
+        rel="stylesheet">
+
+    <!-- JS Link -->
+
     <title>Fluff Stuff</title>
 </head>
-<body>
-    <nav>
 
+<body class='container'>
+    <nav class='nav'>
+        <div class='leftNav'>
+            <img id='logo' src="./assets/fullLogo.png" alt="fluff stuff logo">
+            <a href="./all-prod.html" class='navigation' id='shop'>shop</a>
+            <a href="./about.html" class='navigation' id='about'>about</a>
+            <a href="./contact.html" class='navigation' id='contact'>contact</a>
+        </div>
+        <p class='navigation cart'>cart</p>
     </nav>
 
+    <hr id="nav-line">
+
     <section class='photo'>
+        <h1 class='phototext'>pillows designed around you</h1>
+        <a href="./all-prod.html" class='homeButtonCTA'>lets get comfy</a>
+    </section>
 
-    </section class='PColors'>
+    <section class='PColors'>
+        <h1 class='title'>colors</h1>
+        <div class='colorPhotos'>
+            <div class='color'>
+                <div class='colorImage school'></div>
+                <p>AFTER SCHOOL SPECIAL</p>
+            </div>
+            <div class='color'>
+                <div class='colorImage haze'></div>
+                <p>MORNING HAZE</p>
+            </div>
+            <div class='color'>
+                <div class='colorImage demin'></div>
+                <p>COZY DEMIN</p>
+            </div>
+            <div class='color'>
+                <div class='colorImage rainy'></div>
+                <p>RAINY DAY</p>
+            </div>
+        </div>
 
-    <section>
+    </section>
 
-    </section class='PFills'>
+    <section class='PFills'>
+        <h1 class='title'>pillow fills</h1>
+        <div class='fillPhotos'>
+            <div class='fill'>
+                <div class='fillImage duck'></div>
+                <p>DUCK DOWN</p>
+            </div>
+            <div class='fill'>
+                <div class='fillImage polyBlend'></div>
+                <p>HYPOALLERGENIC POLY-BLEND</p>
+            </div>
+            <div class='fill'>
+                <div class='fillImage foam'></div>
+                <p>MEMORY FOAM</p>
+            </div>
+        </div>
 
-    <section>
-        
+    </section>
+
+    <section class='button-shop'>
+        <a href="./all-prod.html" class='homeButtonCTA '>shop all pillows</a>
     </section>
 </body>
+
+</html>
