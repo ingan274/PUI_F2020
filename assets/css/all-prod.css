@@ -1,0 +1,74 @@
+:root {
+    --title-font: 'Kavoon', cursive;
+    --body-font:'Poppins', sans-serif;
+    --bold: 500;
+}
+
+.prodRow {
+    display: flex;
+    justify-content: space-around;
+}
+
+.productArea {
+    height: 242px;
+    width: 50%;
+    margin: 20px 10px 0px 10px;
+    padding: 50px 40px 50px 40px;
+}
+
+.desc {
+    color: #797979;
+    font-size: 16px;
+}
+
+.prodTitle {
+    font-family: var(--title-font);
+    font-size: 90px;
+    color: #2A379D;
+    margin-bottom: 15px;
+}
+
+.bed {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.3)), url(../imgs/morning-haze/annie-spratt-V-6bv_-LzOo-unsplash.jpg);
+    background-size: 110%;
+    background-position: 50% 80%;
+}
+
+.couch {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.3)), url(../imgs/rainy-day/pesce-huang-OTR3YJiigkw-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.round {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.3)), url(../imgs/Denim/krisztina-papp-SR5Kdmk5W0o-unsplash.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+.pouf {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.3)), url(../imgs/school-special/minh-pham-OtXADkUh3-I-unsplash.jpg);
+    background-size: 150%;
+    background-position: 95% 92%;
+}
+
+.shopBtn {
+    background-color: #FFD19C;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 200px 0px;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+.shopBtn:hover {
+    background-color: #EDB678;
+}
+
+.soon {
+    background-color: #ED7878;
+    font-size: 13px;
+    padding: 5px 10px;
+}
