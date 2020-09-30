@@ -33,14 +33,36 @@
 
     <h1 class='pageHeader'>contact us</h1>
 
-    <section class='body'>
-        <form>
+    <section class='pageBody'>
+        <form class='contact'>
+            <label for="email">Email</label><br>
+            <input type="text" id="email" name="email" required>
+            <div class='name'>
+                <div class='nameinput'>
+                    <label for="fname">First name</label><br>
+                    <input type="text" id="fname" name="fname" required>
+                </div>
+                <div class='nameinput'>
+                    <label for="lname">Last name</label><br>
+                    <input type="text" id="lname" name="lname" required>
+                </div>
+            </div>
+            <label for="fname">Category</label><br>
+            <select id="category" name="category" required>
+                <option >Select</option>
+                <option value="general">General</option>
+                <option value="question">Question</option>
+                <option value="support">Support</option>
+                <option value="Wholesale">Wholesale/Partnerships</option>
+              </select>
 
         </form>
 
+        <div id='spacebetween'></div>
+
         <div class='contactInfo'>
             <div class='location'>
-                <h3 class='intoTitle'>locaton</h3>
+                <h3 class='infoTitle'>locaton</h3>
                 <p class='information'>
                     123 Somewhere St.
                     <br>
@@ -54,15 +76,13 @@
             </div>
 
             <div class='phoneNumber'>
-                <h3 class='intoTitle'>locaton</h3>
+                <h3 class='infoTitle'>phone number</h3>
                 <p class='information'>
-                    123 Somewhere St.
-                    <br>
-                    Pittsburgh, PA 15213
-                    <br><br>
-                    <span class='bold'>Monday - Saturday</span>
-                    <br>
-                    8:00AM - 9:00PM EST
+                    <span class='bold'>Customer Service:</span><br>
+                    +1 (123) 345 - 5678<br><br>
+
+                    <span class='bold'>Wholesale/Partnerships</span><br>
+                    +1 (901) 123 - 3456<br>
                 </p>
             </div>
         </div>

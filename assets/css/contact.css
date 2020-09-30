@@ -3,3 +3,75 @@
     --body-font:'Poppins', sans-serif;
     --bold: 500;
 }
+
+.pageHeader {
+    font-family: var(--title-font);
+    color: #5C64A2;
+    font-size: 40px;
+    margin-top: 75px;
+}
+
+.pageBody {
+    display: flex;
+    flex-direction: row;
+}
+
+/* form */
+.name {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    border: 1.5px solid #E5E5E5;
+    margin: 3px 0px 15px 0px;
+}
+
+#category {
+    width: 100%;
+    height: 35px;
+    border: 1.5px solid #E5E5E5;
+    margin: 3px 0px 15px 0px;
+
+    font-family: var(--body-font);
+    padding: 3px 5px;
+    font-size: 13px;
+}
+
+.nameinput {
+    width: 47%;
+}
+
+#fname, #lname {
+    width: 100%;
+}
+
+
+/* right side */
+
+.contact {
+    width: 55%; 
+}
+
+#spacebetween {
+    width: 25%; 
+}
+.contactInfo {
+    width: 20%;
+}
+
+.infoTitle {
+    font-family: var(--title-font);
+    color: #2A379D;
+    font-size: 20px;
+}
+
+.information {
+    margin: 10px 0px 30px 0px;
+    color: #A8A8A8;
+
+}
