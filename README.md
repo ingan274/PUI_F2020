@@ -1,4 +1,4 @@
-# Fall 2020 CMU Programming User Interfaces: Homework 5
+# Fall 2020 CMU PUI: Homework 5
 <p align="center">
 <img src="https://media.giphy.com/media/3ohhwywk40IjttKOvS/giphy.gif">
 </p>
