@@ -3,8 +3,11 @@
 <img src="https://media.giphy.com/media/3ohhwywk40IjttKOvS/giphy.gif">
 </p>
 <br>
-
 Digital Prototype of Fluff Stuff Website (Fall 2020 HW5)
+<br>
+Live Link: https://ingan274.github.io/cmu-pui-hw5/
+<br>
+<br>
 
 ## Live Pages:
 <ul>
