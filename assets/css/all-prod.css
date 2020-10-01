@@ -72,3 +72,7 @@
     font-size: 13px;
     padding: 5px 10px;
 }
+
+.soon:hover {
+    background-color: #ED7878;
+}
