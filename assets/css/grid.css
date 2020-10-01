@@ -5,7 +5,7 @@
 }
 
 .container {
-    margin: 30px 100px;
+    margin: 20px 100px;
     font-family: var(--body-font);
     font-weight: 200;
 }
@@ -42,7 +42,7 @@ a, a:hover {
 }
 
 #nav-line {
-    margin-top: 25px;
+    margin-top: 20px;
     border-top: 4px solid rgba(30, 43, 157, 0.42);
 }
 
