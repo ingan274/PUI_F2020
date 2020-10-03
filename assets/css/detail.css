@@ -1,7 +1,7 @@
 :root {
     --title-font: 'Kavoon', cursive;
     --body-font:'Poppins', sans-serif;
-    --bold: 500;
+    --bold: 700;
 }
 
 .subnav, .row {
@@ -10,8 +10,9 @@
 }
 
 .product {
-    color: white;
-    background-color: #FFD19C;
+    color: #EDB678;
+    background-color: white;
+    border: 2px solid #EDB678;
     width: 25%;
     height: 28%;
     margin: 15px 10px;
@@ -23,11 +24,13 @@
 
 .product:hover {
     background: #EDB678;
+    color: white;
 }
 
 .thisPage {
     background: #EDB678;
     font-weight: var(--bold);
+    color: white;
 }
 
 /* Images */
@@ -91,16 +94,16 @@
 .cost {
     color: #5C64A2;
     font-size: 35px;
-    font-weight: 500;
+    font-weight: var(--bold);
 }
 
 .addToCart {
     width: 40%;
-    border: 2px solid #EDB678;
+    background-color: #EDB678;
     border-radius: 5px;
     text-align: center;
-    padding: 10px 0px;
-    color: #EDB678;
+    padding: 14px 0px;
+    color: white;
     font-weight: var(--bold);
 }
 
@@ -136,10 +139,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #EDB678;
     border-radius: 5px;
     padding: 5px 5px;
-    color: #EDB678;
+    color: white;
+    background-color: #B8C5D0;
     
 }
 

@@ -1,7 +1,7 @@
 :root {
     --title-font: 'Kavoon', cursive;
     --body-font:'Poppins', sans-serif;
-    --bold: 500;
+    --bold: 700;
 }
 
 .prodRow {
@@ -18,12 +18,12 @@
 
 .desc {
     color: #797979;
-    font-size: 16px;
+    font-size: 13px;
 }
 
 .prodTitle {
     font-family: var(--title-font);
-    font-size: 90px;
+    font-size: 70px;
     color: #2A379D;
     margin-bottom: 15px;
 }
@@ -53,9 +53,9 @@
 }
 
 .shopBtn {
-    background-color: #FFD19C;
-    color: white;
-    border: none;
+    background-color: white;
+    color: #EDB678;
+    border: 3px solid #EDB678;
     font-size: 20px;
     border-radius: 5px;
     margin: 200px 0px;
@@ -65,14 +65,19 @@
 
 .shopBtn:hover {
     background-color: #EDB678;
+    color: white;
 }
 
 .soon {
     background-color: #ED7878;
-    font-size: 13px;
-    padding: 5px 10px;
+    border: none;
+    color: white;
+    pointer-events: none;
+    cursor: default;
 }
 
 .soon:hover {
     background-color: #ED7878;
+    pointer-events: none;
+    cursor: default;
 }

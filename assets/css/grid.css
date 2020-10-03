@@ -1,13 +1,13 @@
 :root {
     --title-font: 'Kavoon', cursive;
     --body-font:'Poppins', sans-serif;
-    --bold: 500;
+    --bold: 700;
 }
 
 .container {
     margin: 20px 100px;
     font-family: var(--body-font);
-    font-weight: 200;
+    font-weight: 400;
 }
 
 a, a:hover {
@@ -58,7 +58,7 @@ a, a:hover {
 }
 
 .bold {
-    font-weight: 500;
+    font-weight: var(--bold);
 }
 
 .phototext {

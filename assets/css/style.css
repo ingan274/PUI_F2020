@@ -1,7 +1,7 @@
 :root {
     --title-font: 'Kavoon', cursive;
     --body-font:'Poppins', sans-serif;
-    --bold: 500;
+    --bold: 700;
 }
 
 .photo {
@@ -52,6 +52,10 @@
     margin-bottom: 16px;
 }
 
+.PColors, .PFills {
+    width: 100%;
+}
+
 /* COLOR IMAGES */
 .colorPhotos, .fillPhotos {
     display: flex;
@@ -66,7 +70,7 @@
 }
 
 .colorImage {
-    width: 296px;
+    width: 256px;
     height: 256px;
     margin: 10px 0px;
 }
@@ -98,7 +102,7 @@
 /* FILL IMAGES */
 
 .fillImage{
-    width: 400px;
+    width: 348px;
     height: 256px;
     margin: 10px 0px;
 }
