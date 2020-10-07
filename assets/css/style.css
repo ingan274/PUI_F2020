@@ -8,7 +8,7 @@
     background:linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../imgs/home/jonathan-borba-_peqvnRW7tc-unsplash.jpg);
     background-size: cover;
     width: 100%;
-    height: 670px;
+    height: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,13 +66,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px 10px;
+    margin: 10px 20px;
+    width: 100%;
 }
 
-.colorImage {
-    width: 256px;
-    height: 256px;
-    margin: 10px 0px;
+.colorImage, .fillImage {
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    border-radius:50%;
 }
 
 .school {
@@ -100,12 +102,6 @@
 }
 
 /* FILL IMAGES */
-
-.fillImage{
-    width: 348px;
-    height: 256px;
-    margin: 10px 0px;
-}
 
 .duck {
     background: url(../imgs/home/evie-s-Sw7f58YJbc0-unsplash.jpg);

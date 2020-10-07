@@ -5,13 +5,18 @@
 }
 
 .container {
-    margin: 20px 100px;
+    margin: 40px 150px;
     font-family: var(--body-font);
     font-weight: 400;
 }
 
 a, a:hover {
     text-decoration: none;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
 }
 
 
@@ -38,7 +43,7 @@ a, a:hover {
     text-align: center;
     align-self: center;
     padding-bottom: 3px;
-    margin: 0px 30px;
+    margin: 30px 30px 50px 30px;
 }
 
 #nav-line {
