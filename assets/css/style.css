@@ -4,6 +4,8 @@
     --bold: 700;
 }
 
+/* Main Banner */
+
 .photo {
     background:linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../imgs/home/jonathan-borba-_peqvnRW7tc-unsplash.jpg);
     background-size: cover;
@@ -15,6 +17,7 @@
     margin-top: 20px;
 }
 
+/* Banner Text */
 .phototext {
     color: #C6B0F5;
     padding-top: 40px;
@@ -36,6 +39,8 @@
 .homeButtonCTA:hover {
     background-color: #111F99;
 }
+
+/* Fill and Color Sections */
 
 .PColors, .PFills {
     display: flex;

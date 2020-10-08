@@ -4,6 +4,8 @@
     --bold: 700;
 }
 
+/* Banner */
+
 
 .photo {
     background:linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(https://images.unsplash.com/photo-1552650272-b8a34e21bc4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3033&q=80);
@@ -22,6 +24,8 @@
     text-align: center;
     align-self: center;
 }
+
+/* About Text */
 
 .origin{
     width: 948px;
@@ -87,6 +91,8 @@ div.fillPhoto {
     height: 257px;
     margin: 30px 20px;
 }
+
+/* Images of Fill */
 
 .duck {
     background: url(../imgs/home/evie-s-Sw7f58YJbc0-unsplash.jpg);

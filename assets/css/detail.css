@@ -4,6 +4,7 @@
     --bold: 700;
 }
 
+/* SubNav */
 .subnav, .row {
     display: flex;
     justify-content: space-between;
@@ -134,6 +135,8 @@
     margin-top: 20px;
     font-size: 20px;
 }
+
+/* Fill and color buttons */
 
 .customFill, .customColor {
     display: flex;
