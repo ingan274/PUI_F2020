@@ -8,8 +8,8 @@
     font-family: var(--title-font);
     color: #5C64A2;
     font-size: 40px;
-    margin-top: 55px;
-    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 35px;
 }
 
 .pageBody {
@@ -28,7 +28,7 @@
 input, #category {
     width: 100%;
     height: 30px;
-    margin: 3px 0px 25px 0px;
+    margin: 3px 0px 20px 0px;
     font-family: var(--body-font);
     padding: 3px 1px;
     font-size: 13px;

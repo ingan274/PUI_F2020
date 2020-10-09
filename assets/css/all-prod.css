@@ -10,10 +10,10 @@
 }
 
 .productArea {
-    height: 242px;
+    height: 202px;
     width: 50%;
     margin: 20px 10px 0px 10px;
-    padding: 50px 40px 50px 40px;
+    padding: 40px 40px;
 }
 
 .desc {
@@ -27,6 +27,8 @@
     color: #2A379D;
     margin-bottom: 15px;
 }
+
+/* Product images */
 
 .bed {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.3)), url(../imgs/morning-haze/annie-spratt-V-6bv_-LzOo-unsplash.jpg);
@@ -56,11 +58,11 @@
     background-color: white;
     color: #EDB678;
     border: 3px solid #EDB678;
-    font-size: 20px;
+    font-size: 15px;
     border-radius: 5px;
     margin: 200px 0px;
     text-align: center;
-    padding: 10px 30px;
+    padding: 5px 20px;
 }
 
 .shopBtn:hover {
