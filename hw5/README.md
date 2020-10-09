@@ -5,7 +5,7 @@
 <br>
 Digital Prototype of Fluff Stuff Website (Fall 2020 HW5)
 <br>
-Live Link: https://ingan274.github.io/cmu-pui-hw5/
+Live Link: https://ingan274.github.io/PUI_F2020/hw5
 <br>
 <br>
 
